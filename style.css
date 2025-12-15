@@ -1,0 +1,62 @@
+
+header{
+    text-align: center;
+}
+
+body{
+    /* background-color: rgba(255, 217, 207, 0.92); */
+    background-image: url("./assets/fundo\ amigurumi.png");
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+
+.fundotitulo{
+    color: #ffffff;
+    background: #ffffff57;
+    border-radius: 1rem;
+}
+
+.titulo{
+    color:black;
+}
+
+.fundotransparente {
+    background: rgba(255, 255, 255, 0.4);
+    margin: 0rem 5rem 0rem 5rem;
+    border-radius: 4rem;
+    min-height: 80vh;
+    padding: 1rem;
+}
+
+.imagem{
+    width: 7rem;
+    border-radius: 75px;
+}
+
+.grid-imagens{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.conteudo{
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 200px;
+    display: flex;
+    gap: 1rem;
+    width: fit-content;
+    padding-right: 1rem;
+}
+
+.descricao-amigurumi{
+    min-width: 13rem;
+}
+
+.instagram {
+    color: black;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+}
